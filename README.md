@@ -14,31 +14,34 @@ Dengan menambahkan variabel text pada konstruktor maka akan dapat memanggil vari
 #### 5. Jelaskan maksud dari tiap parameter yang ada di dalam plugin auto_size_text berdasarkan tautan pada dokumentasi ini !
 * `key*`
 ```
-
+Mengontrol bagaimana satu widget menggantikan widget lain di tree.
 ```
 * `textKey`
 ```
-
+Mengatur key untuk widget `Teks` yang dihasilkan
 ```
 * `style`
 ```
-
+Style yang digunakan untuk sebuah teks seperti color, fontsize, dsb
 ```
 * `minFontSize`
 ```
-
+Batasan ukuran teks minimum yang akan digunakan saat mengubah ukuran teks secara otomatis.
+Diabaikan jika presetFontSizes diatur.
 ```
 * `maxFontSize`
 ```
-
+Batasan ukuran teks maksimum yang akan digunakan saat mengubah ukuran teks secara otomatis.
+Diabaikan jika presetFontSizes diatur.
 ```
 * `stepGranularity`
 ```
-
+Ukuran langkah di mana ukuran font sedang disesuaikan dengan batasan.
 ```
 * `presetFontSizes`
 ```
-
+Mendefinisikan semua ukuran font yang mungkin akan diatur.
+'Penting: presetFontSizes harus dalam urutan menurun'.
 ```
 * `group`
 ```
